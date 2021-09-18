@@ -1,0 +1,104 @@
+body{
+    margin: 0 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#cabecera {
+        display: flex;
+}
+
+#izq_cabecera {
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+    width: 50%;
+    height: auto;
+}
+
+#der_cabecera {
+    display: flex;
+    justify-content: right;
+    padding: 5px;
+    width: 50%;
+    height: auto;
+}
+
+#a_cabecera {
+    display: flex;
+    height: 2em;
+    align-items: center;
+    margin: 0% 5% 0% 5%;
+}
+
+#img_perfil{
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    border: solid black 1px;
+    height: 2em;
+    width: 2em;
+}
+
+#apps {
+    display: flex;
+    align-items: center;
+    height: 2em;
+    width: 2em;
+    padding: 0% 5% 0% 5%;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    padding: 5em 5em 2em 5em;
+}
+
+#buscador {
+    display: flex;
+    justify-content: center;
+}
+
+#bordes_buscador{
+    border-radius: 10px;
+    height: 2.5vh;
+}
+
+#botonera {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 1em 2em 0em 1em;
+    margin-bottom: 9em;
+}
+
+#pais {
+    display: flex;
+    justify-content: flex-start;
+    background-color:lightgray;
+}
+
+#carbono {
+    margin-top: 2px;
+}
+
+#opciones {
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+.pie {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color:lightgray;
+}
+
+.boton {
+    padding: 0.25em 0.25em 0.25em 0em;
+    margin: 0em 1.5em 0em 1.5em;
+}
+
+.link{
+    margin: 0 0.5em 0 0.5em;
+}
